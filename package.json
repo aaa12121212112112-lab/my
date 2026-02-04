@@ -1,0 +1,39 @@
+{
+  "name": "assignmentsplus",
+  "version": "0.1.0",
+  "private": true,
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "npm run build",
+    "deploy": "next build && next export"
+  },
+
+  "dependencies": {
+    "next": "16.1.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+
+    "sanity": "^4.22.0",
+    "next-sanity": "^11.6.12",
+    "@sanity/vision": "^4.22.0",
+    "@sanity/image-url": "^1.2.0",
+    "@sanity/icons": "^3.7.4",
+
+    "@portabletext/react": "^3.0.0",
+    "styled-components": "^6.3.8"
+  },
+
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.1.2"
+  }
+}
